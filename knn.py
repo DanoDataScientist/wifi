@@ -1,7 +1,10 @@
 import numpy as np
+
+
 class Position:
-    x=0
-    y=0
+    x = 0
+    y = 0
+
 
 db = {'loc_1': {'x': 260, 'y': 210, 'AP1': {'mean': -45.03, 'std': 2.44}, 'AP2': {'mean': -54.00, 'std': 1.65}},
       'loc_2': {'x': 510, 'y': 210, 'AP1': {'mean': -46.42, 'std': 0.81}, 'AP2': {'mean': -45.58, 'std': 2.54}},
